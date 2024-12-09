@@ -16,7 +16,7 @@ for i in range(30):
         print(
             "{'title': '"
             + response_article.json()["title"]
-            + "', 'link': "
+            + "', 'link': '"
             + response_article.json()["url"]
             + "'}"
         )
